@@ -1,9 +1,0 @@
-Name: Anmol Garg
-Student Number: 149916199
-Email: agarg15@myseneca.ca
-
-By completing the first two milestones of this assignment, I learnt about the use of various functions in a single program to do different tasks. Moreover, I came to know about two different type of function calls, the first one is call by value and the second one is call by reference. In call by value, a copy of value of the arguments is passed to the called function but in call by reference, we pass the address of the arguments to the called function. Call by reference is more efficient because it requires less memory as compared to call by value. In addition, I learnt how to debug a code having various functions by testing one function at a time. 
-
--> A function is a small set of instructions having a very specific role in the program. Functions are very important in a programming language because it lets us shrink the length of our code by replacing a same set of instructions with a function call. For instance let's consider the getInt() function, this function can be called anytime in the program to prompt the user for entering a integer value and this function also ensures that the value entered by the user is a valid integer input otherwise it will reject the input and prompt the user again to enter valid value, if we do not use this function then we have to repeat the same code every-time to validate the user's input.
-
--> The "helper" functions were not included in the "contacts" module because we want that these functions should not be limited to the "contacts" module only, these functions should be universal and work everywhere even outside the "contacts" module. For example, the getIntInRange(min,max) function can be used in any program to limit the user for entering a valid integer value between the specified range of minimum and maximum values passed during the function call. 

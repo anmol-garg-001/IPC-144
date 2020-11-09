@@ -1,7 +1,0 @@
-In this workshop I learnt many things. At first, I came to know how to use the define statement to declare constant variables in the program. Moreover, I came to know about loops in C, the use of logic using if-else statements and the short-hand assignment operator (+=).
-
-I had certain advantages by writing the pseudo-code of the program beforehand. I do not have to worry about the algorithm which I will use in the program later on, I just have to write the actual code with respect to the pseudo-code that I prepared earlier. If I had not prepared the solution before then so many things in the program would have confused me and I would have ended in giving up.
-
-I used two types of iteration constructs in my program, the for loop and the do-while loop. I used the for loop starting from 0 till the number of days of which I have to calculate the average temprature, highest temprature, lowest temprature, etc. To trap the user in order to enter the values in the range specified my be, I used the do-while loop which displayed a error message and prompted the user again to enter the correct values.
-
-I entered many different values in order to test my solution, I calculated the right output on the other side using the calculator and compared it with the output that I obtained from my solution. I was having trouble in calculating the day on which there was the highest temprature, I used the built-in debugger in visual studio to figure out the error and made some changes to obtain the right output.

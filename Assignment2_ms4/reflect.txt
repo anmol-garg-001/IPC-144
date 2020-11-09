@@ -1,9 +1,0 @@
-Name: Anmol Garg
-Student Number: 1499161999
-Email: agarg15@myseneca.ca
-
-By completing milestones 3 and 4, I have learned about dealing with strings and various library functions in the string library and the ctype library. The library functions like strlen, strcpy, strcat and strcmp can be used to deal with c-strings because c-strings do not work like the other data-types such as integers and floats. Moreover, the ctype library functions like isdigit helped me to save a lot of my time because otherwise, I could have used lengthy ways like iterating the whole string character by character in order to validate the user's input.
-
--> Both of the functions findContactIndex and getTenDigitPhone were very useful functions in the whole assignment. There were multiple times when we needed to do tasks like finding the contact index of a particular contact and limiting the user to enter a 10-digit mobile number with all numeric-digits, in such scenarios these two functions can be called and they will do the whole thing. Using these two functions avoided the repetition of code and reduced the length of the code to a great extent. Therefore, the resultant code is easy to debug, modify and less prone to errors.
-
--> Yes, I would have definitely liked to save the contact information in a separate data file. Because the moment we exit the program, the contacts that we added and modified in the program are vanished. Therefore, it is inconvenient for users to use such an application. Moreover, in all the standard contact applications that we see in our cellphones and other devices save all the contact information in their respective databases, so I would love to reach that level and create a really usable application.
