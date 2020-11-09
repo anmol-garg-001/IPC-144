@@ -1,0 +1,14 @@
+In line number 16 of your output:
+The output should be:
+Day  Hi  Low
+^
+But your output is: 
+
+ ^
+
+Unmatched character details:
+The character in column 2 is supposed to be:
+  [D] ASCII code(68)
+but you printed
+  [Empty Line] ASCII code(0)
+

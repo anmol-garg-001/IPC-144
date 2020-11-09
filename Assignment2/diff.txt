@@ -1,0 +1,14 @@
+In line number 13 of your output:
+The output should be:
+*** INVALID ENTRY *** <Only (Y)es or (N)o are acceptable>: no
+                                                            ^
+But your output is: 
+*** INVALID ENTRY *** <Only (Y)es or (N)o are acceptable>: np
+                                                            ^
+
+Unmatched character details:
+The character in column 61 is supposed to be:
+  [o] ASCII code(111)
+but you printed
+  [p] ASCII code(112)
+

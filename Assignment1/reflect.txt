@@ -1,0 +1,28 @@
+Name: Anmol Garg
+Student ID: 149916199
+
+1. -> In the header file(contacts.h line :15), Original Code: char middleInitial[5];
+Corrected Code: char middleInitial[6];
+Explanation: The maximum size of the middle initial string was set to be 5 but according to the desired output we were entering 5 characters so the 5 characters are stored in the string but it cannot store the null character at the end to indicate the end of the string, so I changed the maximum size of string from 5 to 6. (I also changed scanf("%6[^\n]%*c", name->middleInitial); to scanf("%5[^\n]%*c", name->middleInitial);)
+
+-> Original code:  scanf("%s%*c", &yesNo);
+Corrected code: scanf("%c%*c", &yesNo); 
+Explanation: %s was used in scanf to input a char variable 'yesNo' which was not valid and gave runtime errors. So I changed %s to %c.
+
+-> Original code:  if(yesNo == "y" || yesNo == "Y")
+Corrected code: if(yesNo == 'y' || yesNo == 'Y') 
+Explanation: The condition of the if statement was wrong because we cannot compare c strings using the '==' operator, so I changed the double quotes to single quotes('').
+
+-> Original Code: if (yesNo == 'y' && yesNo == 'Y')
+Corrected code: if (yesNo == 'y' || yesNo == 'Y')
+Explanation: The if condition can never be true because a variable cannot have two values at the same time, i.e. yesNo cannot be 'y' and 'Y' at the same time, so I changed the and(&&) condition to or(||) in order to make the condition true if yesNo is either 'y' or 'Y'.
+
+2. When the object(contact) of the Contact struct is created then a address is given to the object in the memory and the embedded structs allocate memory in the same order as the order of declaration and the same thing also happen inside the embedded structs.
+
+3. I observed that the code to get the user's decision about whether they want to enter a field or not was repeated several times, so I designed a function to avoid the repetition.
+Prototype of my function: char decision(char message[100]);
+Explanation of function: The parameter message is a string message that we want to show to the user. The function will get the response from the user and return the response in a char variable 'yesNo'. 
+
+4. The %*c is used to discard the new line character(\n) from the end when the user inputs a string. If we do not put the %*c there then the new line character will remain in the buffer memory and will not let the user input the next string in the program. 
+
+5. "%[^\n]" is used to input strings instead of "%s" because "%s" only reads the string until it finds whitespace but the input in the program can have spaces in it so "%s" will not read anything after the first space so we used "%[^\n]" to guide the program that read the string until you find the new line character(\n).
